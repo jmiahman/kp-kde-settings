@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list b/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list
 --- a/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list	2012-05-01 02:57:22.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list	2013-10-08 17:04:56.652426331 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list	2012-05-01 02:57:22.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list	2013-09-24 22:12:52.415369997 +1000
+>>>>>>> korora/k19
 @@ -1,3 +1,42 @@
  [Added Associations]
  application/x-bittorrent=kde4-ktorrent.desktop;kde4-kget.desktop;
@@ -44,6 +50,7 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/applications/mimea
 +x-content/video-dvd=vlc.desktop;ghb.desktop;
 +x-content/video-svcd=vlc.desktop;ghb.desktop;
 +x-content/video-vcd=vlc.desktop;ghb.desktop;
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list.orig b/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list.orig
 --- a/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list.orig	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/applications/mimeapps.list.orig	2013-10-08 17:08:14.899311879 +1100
@@ -116,12 +123,18 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/applications/mimea
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc b/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc	2013-10-08 17:04:56.679426043 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/activitymanagerrc	2013-09-24 22:04:44.233805318 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,5 @@
 +[activities]
 +5a2687b3-214c-47e1-bff4-f73f420153bd=New Activity
 +
 +[main]
 +currentActivity=5a2687b3-214c-47e1-bff4-f73f420153bd
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/default_components b/usr/share/kde-settings/kde-profile/default/share/config/default_components
 --- a/usr/share/kde-settings/kde-profile/default/share/config/default_components	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/default_components	2013-10-08 17:04:56.679426043 +1100
@@ -143,13 +156,42 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kcmcddbrc b
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts b/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts
 --- a/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts	2013-10-08 17:04:56.680426032 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/default_components kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/default_components
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/default_components	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/default_components	2013-09-24 22:04:44.233805318 +1000
+@@ -0,0 +1,2 @@
++[InstantMessenger]
++imClient[$e]=ktp-contactlist
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/dolphinrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/dolphinrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/dolphinrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/dolphinrc	2013-09-24 22:04:44.233805318 +1000
+@@ -0,0 +1,2 @@
++[PreviewSettings]
++Plugins=directorythumbnail,djvuthumbnail,fontthumbnail,htmlthumbnail,imagethumbnail,jpegthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kcmcddbrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kcmcddbrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kcmcddbrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kcmcddbrc	2013-09-24 22:04:44.234805314 +1000
+@@ -0,0 +1,2 @@
++[Lookup]
++MusicBrainzLookupEnabled=true
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kcmfonts	2013-09-24 22:04:44.234805314 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,3 @@
 +[General]
 +dontChangeAASettings=false
 +forceFontDPI=96
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals b/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals
 --- a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals	2010-09-04 00:30:38.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals	2013-10-08 17:04:56.680426032 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals	2010-09-04 00:30:38.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals	2013-09-24 22:04:44.234805314 +1000
+>>>>>>> korora/k19
 @@ -3,6 +3,9 @@
  AutoCheckAccelerators=false
  
@@ -167,6 +209,7 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals 
 +
 +[KDE]
 +SingleClick=false
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals.rej b/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals.rej
 --- a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals.rej	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals.rej	2013-10-08 17:08:19.547262305 +1100
@@ -193,15 +236,26 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kdeglobals.
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc b/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc	2013-10-08 17:04:56.680426032 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kde.notifyrc	2013-09-24 22:04:44.234805314 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,5 @@
 +[Event/exitkde]
 +Action=
 +Execute=
 +KTTS=
 +Logfile=
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc b/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc	2013-10-08 17:04:56.680426032 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc	2013-09-24 22:04:44.235805309 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,9 @@
 +[Favorites]
 +FavoriteURLs=/usr/share/applications/kde4/apper.desktop,/usr/share/applications/kde4/systemsettings.desktop,/usr/share/applications/firefox.desktop,/usr/share/applications/kde4/dolphin.desktop,/usr/share/applications/kde4/konsole.desktop
@@ -212,6 +266,7 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/kickoffrc b
 +[KRunner][PlasmaRunnerManager]
 +pluginWhiteList=places,shell,services,bookmarks,recentdocuments,locations
 +
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/konversationrc b/usr/share/kde-settings/kde-profile/default/share/config/konversationrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/konversationrc	2009-09-09 01:16:56.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/konversationrc	2013-10-08 17:08:19.548262294 +1100
@@ -247,12 +302,18 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/konversatio
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc b/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc	2009-01-17 01:25:39.000000000 +1100
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc	2013-10-08 17:04:56.680426032 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc	2009-01-17 01:25:39.000000000 +1100
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc	2013-09-24 22:04:44.235805309 +1000
+>>>>>>> korora/k19
 @@ -1,4 +1,5 @@
  [General]
 +loginMode=restoreSavedSession
  screenCount=1
  
  [LegacySession: saved at previous logout]
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc.rej b/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc.rej
 --- a/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc.rej	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc.rej	2013-10-08 17:08:19.548262294 +1100
@@ -268,6 +329,11 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/ksmserverrc
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc b/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc	2013-10-08 17:04:56.681426022 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/servicetype_profilerc	2013-09-24 22:04:44.235805309 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,6 @@
 +[PhononBackend]
 +Entry0_Preference=2
@@ -275,9 +341,15 @@ diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/servicetype
 +Entry1_Preference=1
 +Entry1_Service=phononbackends/gstreamer.desktop
 +NumberOfEntries=2
+<<<<<<< HEAD
 diff -Nurd a/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc b/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc
 --- a/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc	1970-01-01 10:00:00.000000000 +1000
 +++ b/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc	2013-10-08 17:04:56.681426022 +1100
+=======
+diff -Nurd kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc
+--- kde-settings-19-23-orig/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc	1970-01-01 10:00:00.000000000 +1000
++++ kde-settings-19-23/usr/share/kde-settings/kde-profile/default/share/config/sonnetrc	2013-09-24 22:04:44.235805309 +1000
+>>>>>>> korora/k19
 @@ -0,0 +1,7 @@
 +[Spelling]
 +backgroundCheckerEnabled=true

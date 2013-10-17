@@ -5,7 +5,11 @@
 Summary: Config files for kde
 Name:    kde-settings
 Version: 19
+<<<<<<< HEAD
 Release: %{rel}%{?dist}.2
+=======
+Release: %{rel}.2%{?dist}
+>>>>>>> korora/k19
 
 License: MIT
 Url:     http://fedorahosted.org/kde-settings
